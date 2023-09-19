@@ -2,4 +2,4 @@
 
 
 ##  This project showcases a website about a company and its employees
-##  written in python
+##  written in python 
