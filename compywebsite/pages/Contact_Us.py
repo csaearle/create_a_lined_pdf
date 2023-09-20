@@ -7,7 +7,6 @@ with st.form(key='company_contact_form'):
     raw_message = st.text_input("Enter your message here")
     submit_button = st.form_submit_button(label="Submit")
     if submit_button:
-        print("Form submitted")
         message = f"""\
 Subject: {selection_box}
         
@@ -15,9 +14,7 @@ From: Message from {email_address}
 
 {raw_message}
         """
-        st.write(message)
         send_company_email(message)
-        print('Message sent for real:  SUCCESS!!!!!')
 
    #     st.experimental_rerun()
 
