@@ -48,7 +48,7 @@ for index, row in df.iterrows():
 
         # Draw the lines of 10mm apart from first line down to footer vertically
         for lines_vertical in range(line_y1, 270, 10):
-            print(lines_vertical)
+         #   print(lines_vertical)
             pdf.line(lines_x1, lines_vertical, lines_x2, lines_vertical)
 
         # Write the footer under the multiple lines
